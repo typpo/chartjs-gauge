@@ -1,5 +1,6 @@
 /* eslint-disable max-len, func-names */
 const polyfill = () => {
+  /*
   if (CanvasRenderingContext2D.prototype.ellipse === undefined) {
     CanvasRenderingContext2D.prototype.ellipse = function (x, y, radiusX, radiusY, rotation, startAngle, endAngle, antiClockwise) {
       this.save();
@@ -10,6 +11,7 @@ const polyfill = () => {
       this.restore();
     };
   }
+  */
 };
 
 export default polyfill;
